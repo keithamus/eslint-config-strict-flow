@@ -1,5 +1,5 @@
 'use strict';
-config = require('./flowtype');
+var config = require('./flowtype');
 config.settings.flowtype.onlyFilesWithFlowAnnotation = false;
 Object.keys(config.rules).forEach(function (rule) {
   config.rules[rule] = 0;
