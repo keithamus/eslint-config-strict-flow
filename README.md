@@ -46,7 +46,7 @@ Feel free to define additional globals or rules, or override them as you see fit
 
 ```json
 {
-  "extends": ["strict-flowtype/es6"],
+  "extends": ["strict-flowtype"],
 
   "globals": {
     "blarg": true
