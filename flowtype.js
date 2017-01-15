@@ -36,6 +36,8 @@ module.exports = {
     ],
     // Checks for duplicate properties in Object annotations
     'flowtype/no-dupe-keys': 2,
+    // Disallows use of primitive constructors as types, such as Boolean, Number and String
+    'flowtype/no-primitive-constructor-types': 2,
     // Warns against weak type annotations any, Object and Function.
     'flowtype/no-weak-types': [
       2,
@@ -55,6 +57,8 @@ module.exports = {
     'flowtype/require-parameter-type': 0,
     // Requires that functions have return type annotation.
     'flowtype/require-return-type': 0,
+    // Requires that variables have return type annotation.
+    'flowtype/require-variable-type': 0,
     // This rule validates Flow file annotations.
     'flowtype/require-valid-file-annotation': [
       2,
