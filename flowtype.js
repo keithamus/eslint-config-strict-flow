@@ -52,9 +52,9 @@ module.exports = {
       'comma',
     ],
     // Requires that all function parameters have type annotations.
-    'flowtype/require-parameter-type': 2,
+    'flowtype/require-parameter-type': 0,
     // Requires that functions have return type annotation.
-    'flowtype/require-return-type': 2,
+    'flowtype/require-return-type': 0,
     // This rule validates Flow file annotations.
     'flowtype/require-valid-file-annotation': [
       2,
